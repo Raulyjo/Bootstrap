@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Navegación</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <style type="text/css">
+  		html, body{
+  				height: 1500px;
+  		}
+  		#intro{
+  			background: url(purpalt.png) repeat;
+  			padding: 100px 15px 60px;
+  			color:white;
+  		}
+  		.texto-claro{
+  			color:#e9e6df;
+  			font-size: 0.8em;
+  		}
+  		.tpad{
+  			padding-top: 20px;
+  		}
+  		.bajo{
+  			background: url(purpalt.png) repeat;
+  			color:white;	
+  			position: fixed;
+    		bottom: 0;
+    		width: 100%;
+    		padding: 20px;		
+  		}
+  		.logo{
+  			padding: 0px 100px ;
+  		}
+  </style>
+</head>
+<body>
+<!-- Navegacion: start -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="sr-only"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+<!-- logo -->
+		<a class="navbar-brand" href="index.html">mi logo</a>
+	</div>
+<!-- menu -->
+	<div class="navbar-collapse collapse">
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="index.html">Inicio</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="cliente.html">Clientes</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Redes sociales<b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					<li><a href="http:www.facebook.com">facebook</a></li>
+					<li><a href="http:www.google.com">google</a></li>
+					<li><a href="http:www.twitter.com">twitter</a></li>					
+				</ul>
+			</li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Bancos<b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					<li><a href="https://www.bancosantander.es">Santander</a></li>
+					<li><a href="http:www.bankia.com">Bankia</a></li>
+					<li><a href="http:www.bancosabadell.com">Sabadell</a></li>					
+				</ul>
+			</li>
+		</ul>
+	</div>
+</nav>
+<!-- Navegacion:end -->
+
+<!-- Intro:start -->
+<div id="intro">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-3">
+				<img class="img-responsive tpad" src="MoveMe.png">
+			</div>				
+			<div class="col-xs-9">
+				<h1>Muevete <span class="texto-claro">tu compañia</span></h1>
+				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pellentesque, augue nec finibus blandit, orci neque euismod orci, at ullamcorper dolor felis ut nibh. Morbi maximus interdum lacus, a auctor magna euismod et. Donec ac orci nec tortor lobortis ullamcorper eget sed massa. Nam malesuada metus non tellus auctor, ultricies condimentum turpis finibus. In pretium nisl mollis, volutpat elit vel, facilisis ligula. Proin ornare vitae orci sit amet venenatis. Aenean quis dui ac felis mattis hendrerit rutrum ut augue. Curabitur vulputate ornare cursus. Praesent vestibulum, eros at placerat interdum, nibh ante tempor leo, ut lacinia metus nisi at libero. Quisque euismod tortor sed odio interdum, egestas eleifend risus pharetra. Nunc blandit ex sed libero tempus porttitor. Nulla nunc mauris, placerat eu ultrices a, volutpat nec ex.</p>
+			</div>				
+		</div>
+	</div>
+</div>
+<!-- Intro:end -->
+
+<div class="container-fluid bajo">
+		<div class="row">
+			<div class="col-xs-3">
+				VIVEROS DE VID <br>
+  				vides americanas y plantas de vid <br>
+  				tlf/fax : (+34) 96 236 0123 <br>
+  				C/ Nino Bravo 5 (Ayelo de Malferit)
+			</div>				
+			<div class="col-xs-5">
+				<img class="img-responsive logo" src="http://sercopag.com/wp-content/uploads/2015/03/videsil.jpg">
+			</div>	
+			<div class="col-xs-4">
+				<ul>
+					<li>Inicio</li>
+					<li>Servicio</li>
+					<li>Mapa</li>
+					<li>Sobre nosotros</li>
+					<li>Contacto</li>
+				</ul>
+			</div>			
+		</div>
+	</div>
+</div>
+</body>
+</html>
